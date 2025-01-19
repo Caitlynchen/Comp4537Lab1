@@ -145,13 +145,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const storedData = JSON.parse(localStorage.getItem('textAreasData')) || [];
 
     storedData.forEach(data => {
-        if (data !== ''){
+        if (data !== '') {
             const textarea = document.createElement('textarea');
             textarea.value = data.text;
-            textarea.readOnly = true;  // Make textarea read-only
-            textarea.classList.add('text-block'); // Apply styling class if exists
+            textarea.readOnly = true;  
+            textarea.classList.add('text-block');
             textBlocks.appendChild(textarea);
         }
     });
-    new NavigationManager('navigationContainer');
 });

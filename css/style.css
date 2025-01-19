@@ -1,9 +1,12 @@
-/* button {
-    width: 5em;
-    height: 3em;
-    margin: 5px;
-} */
-
+#ReaderTextBlocks {
+    width: 90%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+}
 #buttonContainer {
     position: relative;
     min-height: 300px;  
