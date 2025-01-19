@@ -1,0 +1,70 @@
+/* button {
+    width: 5em;
+    height: 3em;
+    margin: 5px;
+} */
+
+#buttonContainer {
+    position: relative;
+    min-height: 300px;  
+    width: 100%;     
+    /* overflow-x: auto;    */
+    
+}
+#submit{
+    width: 3em;
+    height: 2em;
+    margin: 5px;
+}
+
+#container {
+    width: 300px;
+    margin: auto;
+}
+
+
+
+.text-block {
+    background-color: transparent;
+    color: blue;
+    padding: 10px;
+    align-items: bottom; /* Align items vertically */
+    justify-content: space-between; /* Space between text and button */
+    /* margin: 10px 0; Add margin for separation from other elements */
+    
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; 
+}
+
+.remove-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 5em;
+    height: 2em;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.add-button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.home-button {
+    padding: 10px 20px;
+    color: darkgray;
+}
+
